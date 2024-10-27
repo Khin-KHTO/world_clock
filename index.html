@@ -13,14 +13,14 @@
     <div class="container">
       <h1>World Clock</h1>
 
-      <select>
+      <select id="city">
         <option value="">Selecte a city..?</option>
-        <option value="toronto">Toronto 🇨🇦</option>
-        <option value="paris">Paris 🇫🇷</option>
-        <option value="singapore">Singapore 🇸🇬</option>
-        <option value="yangon">Yangon 🇲🇲</option>
+        <option value="America/Toronto">Toronto 🇨🇦</option>
+        <option value="Europe/Paris">Paris 🇫🇷</option>
+        <option value="Asia/Singapore">Singapore 🇸🇬</option>
+        <option value="Asia/Yangon">Yangon 🇲🇲</option>
       </select>
-
+    <div id="cities">
       <div class="city" id="toronto">
         <div>
           <h2>Toronto 🇨🇦</h2>
@@ -38,24 +38,26 @@
       <div class="city" id="singapore">
         <div>
           <h2>Singapore 🇸🇬</h2>
-          <div class="date">September 15th 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">12:03:15 <small>PM</small></div>
+        <div class="time"></div>
       </div>
       <div class="city" id="yangon">
         <div>
           <h2>Yangon 🇲🇲</h2>
-          <div class="date">September 15th 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">12:03:15 <small>PM</small></div>
+        <div class="time"></div>
       </div>
     </div>
+    <div>
     <footer>
       This project was coded with ♥️ by <strong>Khin-KHTO</strong> and is
       <a href="https://github.com/Khin-KHTO/world_clock" target="_blank">
         open sourced on GitHub.</a
       >
     </footer>
+    </div>
     <script src="javascript/index.js"></script>
   </body>
 </html>
